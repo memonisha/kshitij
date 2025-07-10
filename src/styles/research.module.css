@@ -1,0 +1,220 @@
+.researchSection {
+  padding: 4rem 2rem;
+  color: var(--sidebar-text);
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 2.8rem;
+  text-align: center;
+  background: linear-gradient(to right, var(--accent), #9c8cf7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 0.5rem;
+}
+
+.subtitle {
+  text-align: center;
+  color: var(--sidebar-text);
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.7rem;
+  margin-bottom: 2rem;
+}
+
+.tag {
+  background: var(--hover-tint);
+  color: var(--sidebar-text);
+  padding: 0.5rem 1.2rem;
+  border-radius: 50px;
+  font-size: 0.9rem;
+  box-shadow: 0 0 6px rgba(0,0,0,0.1);
+  cursor: default;
+  transition: all 0.3s ease;
+}
+
+.tabHeader {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.tabButton {
+  padding: 0.6rem 1.2rem;
+  background: transparent;
+  color: var(--sidebar-text);
+  border: 2px solid  rgb(79, 50, 103);
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.tabButton:hover {
+  background: rgb(79, 50, 103);
+  color: white;
+}
+
+.activeTab {
+  background: rgb(79, 50, 103);
+  color: white;
+}
+
+.tabContent {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.card {
+  background: var(--hover-tint);
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  position: relative;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+
+.ribbon {
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  background: var(--accent);
+  color: white;
+  font-size: 0.7rem;
+  padding: 0.2rem 0.6rem;
+  border-radius: 4px;
+}
+.valuesRow {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 2rem;
+}
+
+.valuePill {
+  background:var(--accent);
+  color: white;
+  padding: 0.4rem 1rem;
+  margin:0.7rem;
+  border-radius: 999px;
+  font-size: 0.9rem;
+  box-shadow: 0 0 6px var(--accent);
+  animation: floatUp 3s infinite ease-in-out;
+}
+
+@keyframes floatUp {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-5px); }
+  100% { transform: translateY(0px); }
+}
+.readButton {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.5rem 1.1rem;
+  border-radius: 6px;
+  background-color: var(--accent);
+  color: white;
+  font-weight: 500;
+  font-size: 0.9rem;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 10px var(--accent);
+}
+
+.readButton:hover {
+  background-color: white;
+  color: var(--accent);
+  box-shadow: 0 0 16px var(--accent);
+  transform: scale(1.05);
+}
+
+
+/* --- Forthcoming Presentations Timeline --- */
+.timelineWrapper {
+  margin-top: 2.5rem;
+  background: var(--muted-bg);
+  padding: 1.2rem;
+  border-radius: 12px;
+}
+
+.timelineWrapper h3 {
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+  color: var(--accent);
+}
+
+.timelineItem {
+  margin-bottom: 1.2rem;
+  padding-left: 1rem;
+  border-left: 3px solid var(--accent);
+  transition: all 0.3s ease;
+}
+
+.timelineItem:hover {
+  background: rgba(100, 100, 100, 0.05);
+  padding-left: 1.4rem;
+}
+.accordion {
+  margin-top: 2rem;
+  background: var(--card-bg);
+  padding: 1.5rem;
+  border-radius: 12px;
+}
+
+.accordion h3 {
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+  color: var(--accent);
+}
+
+/* 🟨 Two Column Grid */
+.accordionGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.accordionItem {
+  background: var(--muted-bg);
+  padding: 1rem;
+  border-left: 4px solid var(--accent);
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.accordionItem:hover {
+  transform: scale(1.02);
+  background: var(--highlight);
+}
+
+.accordionHeader {
+  font-weight: 600;
+  color: var(--text);
+  margin-bottom: 0.4rem;
+}
+
+.accordionAuthors,
+.accordionDetails {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}

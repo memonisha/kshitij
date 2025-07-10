@@ -1,0 +1,15 @@
+.wrapper {
+  padding: 3rem 2rem;
+  margin-left: 240px;
+}
+
+.hero {
+  max-width: 600px;
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+.highlight {
+  color: var(--accent);
+  font-weight: 700;
+}

@@ -1,0 +1,37 @@
+.footer {
+  padding: 2rem;
+  text-align: center;
+  border-top: 1px solid #ccc;
+  margin-top: 4rem;
+  background-color: inherit;
+  color: inherit;
+  transition: var(--transition);
+}
+
+.content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.tagline {
+  font-style: italic;
+  font-size: 0.9rem;
+  margin: 0.5rem 0 1rem;
+  opacity: 0.8;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  gap: 1.2rem;
+  font-size: 1.3rem;
+}
+
+.icons a {
+  color: inherit;
+  transition: color var(--transition);
+}
+
+.icons a:hover {
+  color: var(--accent);
+}

@@ -1,0 +1,32 @@
+
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: var(--bg-light);
+  color: var(--text-light);
+  transition: var(--transition);
+}
+
+:root {
+  --bg-light: #f8f8f8;
+  --text-light: #222;
+  --accent: #7f5af0;
+  --hover-tint: #ece9f9;
+  --sidebar-bg: var(--bg-light);
+  --sidebar-text: var(--text-light);
+}
+
+body.dark {
+  --bg-light: #1e1e1e;
+  --text-light: #fff;
+  --hover-tint: #2c1c49;
+  --sidebar-bg: #111111;
+  --sidebar-text: #fff;
+    --accent: #9f86ff;
+}
+
+
+
+
+
