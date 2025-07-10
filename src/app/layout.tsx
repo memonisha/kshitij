@@ -1,5 +1,10 @@
+// app/layout.tsx (or layout.jsx)
 import '../styles/globals.css'
 import Sidebar from '../components/Sidebar'
+
+export const metadata = {
+  title: "Hey👋🏻 It's Kshitij!"
+}
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (

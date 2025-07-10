@@ -5,6 +5,7 @@ import { motion } from 'framer-motion'
 import confetti from 'canvas-confetti'
 import { useEffect, useRef } from 'react'
 
+
 const collageImages = [
   '/images/k7.jpeg',
   '/images/games.jpeg',
@@ -116,7 +117,19 @@ export default function AwardsSection() {
               <p>{award.desc}</p>
             </div>
           </motion.div>
+
+
+
         ))}
+        <motion.div
+  className={styles.quoteCard}
+  initial={{ opacity: 0.7, scale: 0.8 }}
+  whileHover={{ scale: 1.04 }}
+  whileInView={{ opacity: 1, scale: 1 }}
+  transition={{ duration: 0.5, ease: 'easeOut' }}
+>
+  <p className={styles.handwriting}>...and many more to go!</p>
+</motion.div>
       </div>
     </section>
   )

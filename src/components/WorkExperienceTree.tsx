@@ -45,7 +45,7 @@ export default function WorkExperienceTree() {
   const [expandedIdx, setExpandedIdx] = useState<number | null>(null)
 
   return (
-    <section className={styles.treeSection}>
+    <section className={styles.treeSection} id='work'>
       <motion.h2
         className={styles.treeTitle}
         initial={{ opacity: 0, y: -20 }}

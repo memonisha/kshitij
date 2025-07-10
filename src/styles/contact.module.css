@@ -1,0 +1,164 @@
+.contactSection {
+  padding: 1rem 1rem;
+  color: var(--text);
+  max-width: 600px;
+  margin: 3rem auto;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+
+.title {
+  font-size: 2.8rem;
+  margin-bottom: 0.3rem;
+  font-weight: 900;
+  background: linear-gradient(to right, var(--accent), #9c8cf7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  font-weight: 500;
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  text-align: left;
+}
+
+.form label {
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  color: var(--text);
+  margin-bottom: 0.3rem;
+  display: block;
+}
+
+.form input,
+.form textarea {
+  width: 100%;
+  padding: 0.7rem 1rem;
+  font-size: 1rem;
+  font-family: inherit;
+  border: none;
+  border-bottom: 2px solid var(--accent);
+  background: transparent;
+  color: var(--text);
+  transition: border-color 0.3s ease;
+  resize: none;
+}
+
+.form input::placeholder,
+.form textarea::placeholder {
+  color: var(--text-muted);
+  opacity: 0.7;
+}
+
+.form input:focus,
+.form textarea:focus {
+  outline: none;
+  border-bottom-color: #9c8cf7;
+}
+
+.submitButton {
+  margin-top: 1.5rem;
+  background: transparent;
+  border: 2px solid var(--accent);
+  color: var(--accent);
+  font-weight: 700;
+  font-size: 1.2rem;
+  padding: 0.9rem 0;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 100%;
+}
+
+.submitButton:hover {
+  background: var(--accent);
+  color: white;
+  box-shadow: 0 0 15px var(--accent);
+}
+
+.thankYouMessage {
+  margin-top: 1rem;
+  font-weight: 700;
+  font-size: 1.3rem;
+  color: var(--accent);
+  text-align: center;
+}
+
+@media (max-width: 480px) {
+  .contactSection {
+    padding: 2rem 1rem;
+    max-width: 100%;
+  }
+}
+.form input,
+.form textarea {
+  width: 100%;
+  padding: 0.7rem 1rem;
+  font-size: 1rem;
+  font-family: inherit;
+  border: 1.5px solid rgba(255, 255, 255, 0.2); /* subtle border */
+  border-radius: 12px;
+  background: transparent;
+  color: var(--text);
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  resize: none;
+}
+
+.form input::placeholder,
+.form textarea::placeholder {
+  color: var(--text-muted);
+  opacity: 0.7;
+}
+
+.form input:focus,
+.form textarea:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 8px var(--accent);
+  background: rgba(255, 255, 255, 0.05);
+}
+.iconRow {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.iconLink {
+  font-size: 2.2rem;
+  color: var(--text-muted);
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.iconLink:hover,
+.iconLink:focus {
+  color: var(--accent);
+  text-shadow:
+    0 0 8px var(--accent),
+    0 0 12px var(--accent),
+    0 0 20px var(--accent);
+  outline: none;
+}
+
+@media (max-width: 480px) {
+  .iconRow {
+    gap: 1.2rem;
+  }
+  .iconLink {
+    font-size: 1.8rem;
+  }
+}

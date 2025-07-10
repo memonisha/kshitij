@@ -4,7 +4,12 @@ import { useState } from 'react'
 import styles from '../styles/sidebar.module.css'
 import ThemeToggle from './ThemeToggle'
 const sections = [
-  'Wondering Who I Am?💭', 'Research Interests🔎', 'Work Experience📚', 'Awards & Honors🏆', 'Volunteer Work🤝', 'Connect & Collaborate📬'
+  { id: 'about', label: 'Wondering Who I Am?💭' },
+  { id: 'research', label: 'Research Interests🔎' },
+  { id: 'work', label: 'Work Experience📚' },
+  { id: 'awards', label: 'Awards & Honors🏆' },
+  { id: 'volunteer', label: 'Volunteer Work🤝' },
+  { id: 'contact', label: 'Connect & Collaborate📬' },
 ]
 
 export default function Sidebar() {
@@ -32,11 +37,11 @@ export default function Sidebar() {
 
       {/* Navigation */}
       <nav className={styles.nav}>
-        {sections.map((sec) => (
-          <Link key={sec} href={`#${sec}`} className={styles.link}>
-            {sec.charAt(0).toUpperCase() + sec.slice(1)}
-          </Link>
-        ))}
+         {sections.map(({ id, label }) => (
+    <a key={id} href={`#${id}`} className={styles.link}>
+      {label}
+    </a>
+  ))}
       </nav>
     <div className={styles.themeToggleWrapper}>
       <ThemeToggle />

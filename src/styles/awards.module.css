@@ -1,5 +1,5 @@
 .awardsSection {
-  padding: 4rem 2rem;
+  padding: 2rem 1rem;
   max-width: 1100px;
   margin: 0 auto;
   text-align: center;
@@ -16,7 +16,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
   gap: 5px;
-  margin-bottom: 3rem;
+  margin-bottom: 5rem;
  
 }
 
@@ -78,3 +78,27 @@
   font-size: 0.95rem;
   color: var(--text-muted);
 }
+
+
+.quoteCard {
+  background: var(--hover-tint);
+  border-radius: 12px;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 140px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+.handwriting {
+  font-family: 'georgia';
+  font-size: 1.3rem;
+  color: var(--accent);
+  text-align: center;
+  font-style: italic;
+  font-weight: 800;
+}
+
+
