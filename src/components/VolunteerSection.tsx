@@ -34,8 +34,8 @@ export default function VolunteerSection() {
           <Image
             src="/images/kvolunteer.jpeg"
             alt="Volunteering"
-            width={400}
-            height={400}
+            width={380}
+            height={380}
             className={styles.volunteerImage}
           />
         </motion.div>
