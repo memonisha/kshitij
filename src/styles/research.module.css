@@ -119,7 +119,7 @@
   border-radius: 999px;
   font-size: 0.9rem;
   box-shadow: 0 0 6px var(--accent);
-  animation: floatUp 3s infinite ease-in-out;
+  animation: floatUp 3.5s infinite ease-in-out;
 }
 
 @keyframes floatUp {

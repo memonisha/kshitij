@@ -5,13 +5,14 @@ import { FaEnvelope, FaResearchgate } from 'react-icons/fa'
 import { SiOrcid, SiGooglescholar } from 'react-icons/si'
 import { TbBuildingFactory2 } from 'react-icons/tb'
 import { GiInjustice } from 'react-icons/gi'
+import { BsGenderTrans } from "react-icons/bs";
 
 const contactLinks = [
   { href: 'mailto:ktewari3@illinois.edu', icon: <FaEnvelope />, label: 'Email' },
   { href: 'https://orcid.org/0000-0003-4879-9213', icon: <SiOrcid />, label: 'ORCID' },
   { href: 'https://scholar.google.com/citations?hl=en&user=yrEvBWQAAAAJ', icon: <SiGooglescholar />, label: 'Google Scholar' },
   { href: 'https://www.researchgate.net/profile/Kshitij-Tewari-2', icon: <FaResearchgate />, label: 'ResearchGate' },
-  { href: 'https://wggp.illinois.edu/directory/profile/ktewari3', icon: <TbBuildingFactory2 />, label: 'WGGP Profile' },
+  { href: 'https://wggp.illinois.edu/directory/profile/ktewari3', icon: <BsGenderTrans />, label: 'WGGP Profile' },
   { href: 'https://diversitylab.rst.illinois.edu/people/graduate-students/#:~:text=and%20park%20programming.-,Kshitij%20Tewari,-Research%20and%20Professional', icon: <GiInjustice />, label: 'J.E.D.A.I. Lab' },
 ]
 

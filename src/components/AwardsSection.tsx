@@ -8,11 +8,11 @@ import { useEffect, useRef } from 'react'
 
 const collageImages = [
   '/images/k7.jpeg',
-  '/images/games.jpeg',
+  
   '/images/kwinawards2.jpeg',
-  '/images/csgge.jpeg',
+  '/images/award.jpeg',
   '/images/k3.jpeg',
-   '/images/everyone.jpeg',
+  
   '/images/k8.jpeg'
 ]
 
@@ -40,7 +40,7 @@ const awards = [
     title: 'RST Conference Travel Award',
     year: '2024',
     desc: 'Dept. of Recreation, Sport and Tourism, UIUC',
-   img: '/images/everyone.jpeg'
+   img: '/images/conf.jpeg'
   },
     {
     title: 'RST Conference Travel Award',
@@ -60,8 +60,8 @@ export default function AwardsSection() {
         entries.forEach((entry) => {
           if (entry.isIntersecting && !hasRun.current) {
             confetti({
-              particleCount: 100,
-              spread: 90,
+              particleCount: 200,
+              spread: 100,
               origin: { y: 0.6 }
             })
             hasRun.current = true
@@ -89,8 +89,8 @@ export default function AwardsSection() {
             key={i}
             src={src}
             className={styles.puzzlePiece}
-            whileHover={{ opacity: 1, scale: 1.05 }}
-            initial={{ opacity: 0.6 }}
+            whileHover={{ opacity: 1, scale: 1.06 }}
+            initial={{ opacity: 0.75, scale: 0.95 }}
             transition={{ duration: 0.3 }}
           />
         ))}

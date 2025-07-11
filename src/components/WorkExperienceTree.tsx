@@ -5,9 +5,18 @@ import { motion } from 'framer-motion'
 import styles from '../styles/workexperience.module.css'
 
 const workData = [
+   {
+    role: 'Graduate Research Assistant',
+    period: 'May 2025 - Jun. 2025',
+    details: [
+      'Advisor: Dr Joelle Soulard',
+      'Department of Recreation, Sport and Tourism',
+      'College of Applied Health Sciences, UIUC'
+    ]
+  },
   {
     role: 'Graduate Teaching Assistant',
-    period: 'Aug. 2024 - Present',
+    period: 'Aug. 2024 - May 2025',
     details: [
       'RST 230: Diversity in Recreation, Sport and Tourism',
       'Department of Recreation, Sport and Tourism',
@@ -33,7 +42,7 @@ const workData = [
   },
   {
     role: 'Graduate Research Assistant',
-    period: 'Jun. 2020 - Jun. 2022',
+    period: 'Jun, 2020 - Jun, 2022',
     details: [
       'Department of Planning',
       'School of Planning and Architecture, Vijayawada'

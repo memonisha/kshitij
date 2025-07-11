@@ -32,19 +32,19 @@ export default function AboutSection() {
           transition={{ duration: 1 }}
         >
           <p>
-            I’m a doctoral scholar in the Department of Recreation, Sport, and Tourism at the University of Illinois Urbana-Champaign, where I explore how leisure and recreation spaces can be more inclusive, just, and joy-filled for everyone.
-
-My research and teaching are rooted in equity, LGBTQ+ inclusion, environmental justice, and queer pedagogies, shaped by my academic journey through a major in RST, a graduate minor in Queer Studies, and continued work in Gender Relations in International Development.
-
-I believe learning spaces should be places where people feel safe to question, express, and belong. Whether I’m leading a classroom discussion or collaborating on research, I bring empathy, curiosity, and a deep respect for each person’s lived experience.
+            Welcome to my corner of the digital world! 
+I’m Kshitij, a scholar-practitioner committed to social justice in sport and recreation. My work centers on critical pedagogy, inclusive design, and community-based research. Through both scholarship and teaching, I aim to challenge norms, uplift marginalized voices, and reimagine what equitable access and leadership look like in leisure spaces.
+</p>
+          <p>
+My teaching philosophy centers on Universal Design for Learning (UDL) and queer pedagogical strategies, prioritizing psychological safety and intersectional inclusivity. Drawing from my experience as a Teaching Assistant and co-instructor at the University of Illinois Urbana-Champaign, I empower students to navigate real-world challenges through active learning, such as role-playing conflict scenarios involving marginalized identities or designing LGBTQ+-inclusive marketing campaigns. I supplement readings with audio-visual content and use trauma-informed practices to foster participation, particularly for introverted or socioeconomically disadvantaged learners.
 
 
           </p>
           <p>
-            Beyond academia, I stay connected to my community through volunteering with Urbana Parks District and Books2Prisoners, and serving on boards and committees that advance equity-focused practices, including The Academy of Leisure Sciences and the Women and Gender in Global Perspectives Program.
-
-When I’m not diving into research or policy, I’m probably on a badminton court, lost in sci-fi or queer lit, or showing up for local grassroots efforts that make our communities better.
-</p>
+           
+           My research examines leisure experiences of marginalized communities including LGBTQ+, Latino and Latinx populations, and international graduate students. Key projects include Natural Spaces and the Queer Identity, which explores outdoor recreation through photovoice and intersectionality, and studies around the impact of gentrification on Hispanic community well-being. I draw on spatial design knowledge from architecture and environmental planning to advocate for inclusive facilities and adaptive sports programs.
+I have authored three peer-reviewed publications that examine diversity, equity, and inclusion in leisure contexts. My upcoming manuscript, Beyond Binaries: Reimagining Leisure Education Through Queer Pedagogy, accepted in SCHOLE, contributes to critical conversations on rethinking binary norms in education.
+           </p>
           <p>
 Thanks for stopping by! I hope this space offers a window into the work I do and the values I carry with me.
           </p>

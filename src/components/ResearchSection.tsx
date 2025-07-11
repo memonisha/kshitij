@@ -2,6 +2,7 @@
 import { useState } from 'react'
 import styles from '../styles/research.module.css'
 import { motion } from 'framer-motion'
+import { BiFontSize } from 'react-icons/bi'
 
 const publications = [
   {
@@ -27,15 +28,40 @@ const publications = [
 const manuscripts = [
   {
     title: 'The Queer Conundrum: In conversation with the leisure pedagogues',
-    journal: 'SCHOLE (Under Review, 2024)',
+    journal: 'SCHOLE (Accepted, In Press)',
   }
 ]
 
 const conferences = [
   {
     type: 'Research Presentation',
+    event: 'TALS 2025',
+    title: 'Natural Spaces and the Queer Identity',
+  },
+  {
+    type: 'Teaching Presentation',
+    event: 'TALS 2025',
+    title: 'Queering Pedagogy: Integration of AI Literacy in Higher Education',
+  },
+  {
+    type: 'Research Presentation',
+    event: 'Spaces of Nature/Natures of Space Symposium 2025',
+    title: 'Nature-Based Recreation and Biopsychosocial Resilience in LGBTQ+ Individuals',
+  },
+  {
+    type: 'Research Presentation',
+    event: 'UIUC College of Education Graduate Student Conference 2025',
+    title: 'International Graduate Students’ Perspectives on Sense of Belonging in Leisure',
+  },
+  {
+    type: 'Panel',
+    event: 'UIUC College of Education Graduate Student Conference 2025',
+    title: 'East Meets West: Integrating Cultural Identities in Academic Settings',
+  },
+  {
+    type: 'Research Presentation',
     event: 'TALS 2024',
-    title: 'Impacts of Gang Involvement on Health and Well-Being',
+    title: 'Impacts of Gang Involvement on Health and Well-Being: The Perilous Dimensions of Leisure',
   },
   {
     type: 'Teaching Presentation',
@@ -47,7 +73,8 @@ const conferences = [
     event: 'TALS 2023',
     title: 'Urban Green Spaces and LGBTQ+ Youth: Usage, Constraints, and Perceptions of Benefits',
   }
-]
+];
+
 
 const forthcoming = [
   {
@@ -185,7 +212,10 @@ export default function ResearchSection() {
       {/* Forthcoming Presentations Timeline */}
       <motion.div className={styles.timelineWrapper}>
         <h3>📅 Forthcoming Presentations</h3>
-        {forthcoming.map((item, idx) => (
+       &nbsp;<span style={{fontSize:'2rem', color:'var(--text-light)'}}> ...</span>
+
+        {/** <Forthcoming Presentations Timeline COMMENTED FOR NOW - CHANGE LATER> */}
+        {/* {forthcoming.map((item, idx) => (
           <motion.div className={styles.timelineItem} key={idx}>
             <h4>
               {item.type} —{' '}
@@ -196,7 +226,7 @@ export default function ResearchSection() {
             </small>
             <small>{item.authors}</small>
           </motion.div>
-        ))}
+        ))} */}
       </motion.div>
     </>
   );
