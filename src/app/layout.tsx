@@ -4,11 +4,6 @@ import Sidebar from '../components/Sidebar'
 import { useEffect, useState } from 'react'
 import type { Metadata } from 'next'
 
-export const metadata: Metadata = {
-  title: "Hey 👋🏻 It's Kshitij!",
-  description: "Welcome to my corner of the digital world! I’m Kshitij, a scholar-practitioner committed to social justice in sport and recreation. My work centers on critical pedagogy, inclusive design, and community-based research.",
-}
-
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   const [theme, setTheme] = useState('light')
 
