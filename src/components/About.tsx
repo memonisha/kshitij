@@ -32,7 +32,7 @@ export default function AboutSection() {
           transition={{ duration: 1 }}
         >
           <p>
-            Welcome to my corner of the digital world! 
+           Welcome!
 I’m Kshitij, a scholar-practitioner committed to social justice in sport and recreation. My work centers on critical pedagogy, inclusive design, and community-based research. Through both scholarship and teaching, I aim to challenge norms, uplift marginalized voices, and reimagine what equitable access and leadership look like in leisure spaces.
 </p>
           <p>
@@ -52,9 +52,9 @@ Thanks for stopping by! I hope this space offers a window into the work I do and
       </div>
 
       <div className={styles.quoteCards}>
-        <div className={styles.quoteCard}>“I want students to know they belong.”</div>
-        <div className={styles.quoteCard}>“I care deeply about inclusive, joyful spaces.”</div>
-        <div className={styles.quoteCard}>“Grounded in empathy, participation, and curiosity.”</div>
+        <div className={styles.quoteCard}>“Students must feel safe to share to fully engage. I build classrooms where every voice thrives.”</div>
+        <div className={styles.quoteCard}>“Life isn’t a battlefield. My classroom deconstructs hierarchies - leadership grows through empathy, not fear.”</div>
+        <div className={styles.quoteCard}>“Leisure spaces reflect resistance or exclusion. My work shows how marginalized groups reclaim nature to affirm identity.”</div>
       </div>
 
       
