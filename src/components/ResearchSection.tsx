@@ -27,8 +27,8 @@ const publications = [
 
 const manuscripts = [
   {
-    title: 'The Queer Conundrum: In conversation with the leisure pedagogues',
-    journal: 'SCHOLE (Accepted, In Press)',
+    title: 'Beyond Binaries: Reimagining Leisure Education Through Queer Pedagogy',
+    journal: 'SCHOLE: A Journal of Leisure Studies and Recreation Education (Accepted, In Press)',
   }
 ]
 
