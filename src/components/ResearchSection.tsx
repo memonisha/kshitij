@@ -36,41 +36,49 @@ const conferences = [
   {
     type: 'Research Presentation',
     event: 'TALS 2025',
+    authors:'Tewari, K., & Fernandez, M.',
     title: 'Natural Spaces and the Queer Identity',
   },
   {
     type: 'Teaching Presentation',
     event: 'TALS 2025',
+    authors:'Du, X., Tewari, K., & Cho, S. J.',
     title: 'Queering Pedagogy: Integration of AI Literacy in Higher Education',
   },
   {
     type: 'Research Presentation',
     event: 'Spaces of Nature/Natures of Space Symposium 2025',
+     authors:'Tewari, K., & Fernandez, M.',
     title: 'Nature-Based Recreation and Biopsychosocial Resilience in LGBTQ+ Individuals',
   },
   {
     type: 'Research Presentation',
     event: 'UIUC College of Education Graduate Student Conference 2025',
+     authors:'Tewari, K.',
     title: 'International Graduate Students’ Perspectives on Sense of Belonging in Leisure',
   },
   {
     type: 'Panel',
     event: 'UIUC College of Education Graduate Student Conference 2025',
+     authors:'Tewari, K., & Lu, Z.',
     title: 'East Meets West: Integrating Cultural Identities in Academic Settings',
   },
   {
     type: 'Research Presentation',
     event: 'TALS 2024',
+     authors:'Tewari, K., Berdychevsky, L., & Stodolska, M.',
     title: 'Impacts of Gang Involvement on Health and Well-Being: The Perilous Dimensions of Leisure',
   },
   {
     type: 'Teaching Presentation',
     event: 'TALS 2024',
+     authors:'Tewari, K., Lundin, E., Cho, S. J., Du, X., Oliveira, J. R., & Fernandez, M.',
     title: 'International Graduate Students’ Perspectives on Sense of Belonging in Leisure',
   },
   {
     type: 'Poster Presentation',
     event: 'TALS 2023',
+     authors:'Tewari, K., & Fernandez, M. ',
     title: 'Urban Green Spaces and LGBTQ+ Youth: Usage, Constraints, and Perceptions of Benefits',
   }
 ];
@@ -189,6 +197,8 @@ export default function ResearchSection() {
         <motion.div key={idx} className={styles.card}>
           <span className={styles.ribbon}>{c.type}</span>
           <h3>{c.title}</h3>
+          <small>{c.authors}</small>
+          <br></br>
           <small>{c.event}</small>
         </motion.div>
       ))}
