@@ -182,7 +182,7 @@ export default function ResearchSection() {
           </a>
         </motion.div>
       ))
-    } else if (activeTab === 'Manuscripts') {
+    } else if (activeTab === 'Manuscripts Under Review') {
       return manuscripts.map((m, idx) => (
         <motion.div key={idx} className={styles.card}>
           <h3>{m.title}</h3>
@@ -263,7 +263,7 @@ export default function ResearchSection() {
       </div>
 
       <div className={styles.tabHeader}>
-        {['Publications', 'Manuscripts', 'Conferences'].map((tab) => (
+        {['Publications', 'Manuscripts Under Review', 'Conferences'].map((tab) => (
           <button
             key={tab}
             className={`${styles.tabButton} ${activeTab === tab ? styles.activeTab : ''}`}
