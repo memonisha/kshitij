@@ -32,19 +32,17 @@ export default function AboutSection() {
           transition={{ duration: 1 }}
         >
           <p>
-           Welcome!
-I’m Kshitij, a scholar-practitioner committed to social justice in sport and recreation. My work centers on critical pedagogy, inclusive design, and community-based research. Through both scholarship and teaching, I aim to challenge norms, uplift marginalized voices, and reimagine what equitable access and leadership look like in leisure spaces.
-</p>
+          Welcome! I’m Kshitij, a scholar-practitioner committed to social justice in sport and recreation. My work centers on critical pedagogy, inclusive design, and community-based research. Through both scholarship and teaching, I aim to challenge norms, uplift marginalized voices, and reimagine what equitable access and leadership look like in leisure spaces.
+          
+          </p>
           <p>
-My teaching philosophy centers on Universal Design for Learning (UDL) and queer pedagogical strategies, prioritizing psychological safety and intersectional inclusivity. Drawing from my experience as a Teaching Assistant and co-instructor at the University of Illinois Urbana-Champaign, I empower students to navigate real-world challenges through active learning, such as role-playing conflict scenarios involving marginalized identities or designing LGBTQ+-inclusive marketing campaigns. I supplement readings with audio-visual content and use trauma-informed practices to foster participation, particularly for introverted or socioeconomically disadvantaged learners.
-
+My teaching philosophy centers on Universal Design for Learning (UDL) and queer pedagogical strategies, prioritizing psychological safety and intersectional inclusivity. Drawing from my experience as a Teaching Assistant  at the University of Illinois Urbana-Champaign, I empower students to navigate real-world challenges through active learning, such as role-playing conflict scenarios involving marginalized identities or designing LGBTQ+-inclusive marketing campaigns.
 
           </p>
           <p>
            
-           My research examines leisure experiences of marginalized communities including LGBTQ+, Latino and Latinx populations, and international graduate students. Key projects include Natural Spaces and the Queer Identity, which explores outdoor recreation through photovoice and intersectionality, and studies around the impact of gentrification on Hispanic community well-being. I draw on spatial design knowledge from architecture and environmental planning to advocate for inclusive facilities and adaptive sports programs.
-I have authored three peer-reviewed publications that examine diversity, equity, and inclusion in leisure contexts. My upcoming manuscript, Beyond Binaries: Reimagining Leisure Education Through Queer Pedagogy, accepted in SCHOLE, contributes to critical conversations on rethinking binary norms in education.
-           </p>
+         My research examines leisure experiences of marginalized communities including LGBTQ+, Latino and Latinx populations, and international graduate students. Key projects include Natural Spaces and the Queer Identity, which explores LGBTQ+ experiences in outdoor recreation, and studies around the impact of gentrification on Hispanic community well-being. I draw on spatial design knowledge from my background in architecture and environmental planning to advocate for inclusive facilities and adaptive sports programs. I have authored three peer-reviewed publications that examine diversity, equity, and inclusion in leisure contexts. My upcoming manuscript, Beyond Binaries: Reimagining Leisure Education Through Queer Pedagogy, accepted in SCHOLE, contributes to critical conversations on rethinking binary norms in education.
+          </p>
           <p>
 Thanks for stopping by! I hope this space offers a window into the work I do and the values I carry with me.
           </p>
